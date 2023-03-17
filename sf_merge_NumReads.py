@@ -18,4 +18,4 @@ if __name__ == "__main__":
 			result['ID'] = pd.read_table(file, usecols=[0])
 		result = pd.concat([result, df], axis=1)
 
-result.to_csv('NumReads_merged.csv', index=False)
+result.to_csv('./salmon_output/NumReads_merged.csv', index=False)
