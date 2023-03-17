@@ -15,7 +15,6 @@ for seqlib in ${SEQLIBS[@]}; do
 		-p 10 \
 		-o salmon_output/${seqlib}
 
-	echo -e "Convert sf to csv: ${seqlib}"
         cp ./salmon_output/${seqlib}/quant.sf ./salmon_output/${seqlib}_result.sf
         echo -e "Finished: ${seqlib}"
         head ./salmon_output/${seqlib}_result.sf|column -t
