@@ -6,3 +6,6 @@ Salmon generates data for TPM and read count for each sample, but in many cases,
 
 ## Usage
 All the files of salmon_pipeline are needed to place in the directory containing the reference index for running salmon (Default: salmon_ref_index).
+
+## Author
+Soma Tomihara (Nagahama-Institute of Bio-Science and Technology)
